@@ -5,7 +5,18 @@
 # Instalar FastAPI, Uvicorn, SQLAlchemy y MariaDB connector
 pip install fastapi uvicorn sqlalchemy mariadb
 ```
+# FrontEnd #
 
+## Cambiar puerto de la aplicación ##
+
+```bash
+uvicorn frontend:app --reload --port 3001
+```
+
+
+
+
+```js
 ## 🏢 2. Estructura del proyecto 
 
 ```bash
